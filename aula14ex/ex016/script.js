@@ -15,6 +15,7 @@ function contar() {
         let f = Number(fim.value)
         let p = Number(passo.value)
 
+        // Informa que o passo deve ser > 0
         if(p <= 0){
             window.alert('Passo inválido! Considerando PASSO 1')
             p = 1
